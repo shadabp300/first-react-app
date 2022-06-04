@@ -1,14 +1,14 @@
-
+import "./greeting.css"
 const Greeting=()=> {
 
-    let time=new Date(2022, 8,5,13)
+    let time=new Date()
     time=time.getHours()
     let csscolor={}
     
     
     
     let greet=""
-    if (1<=time && time<12) {
+    if (0<=time && time<12) {
       greet= "Good Morning"
       csscolor.color = "green";
     }
