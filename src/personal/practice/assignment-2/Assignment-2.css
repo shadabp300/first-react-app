@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px 50px 20px 20px;
+    border: 5px solid rgb(12, 152, 199);
+
+}
+img {
+    width: 17vw;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: deepskyblue;
+    margin-bottom: 15px;
+}
+p {
+    color: grey;
+
+}
+h3 {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/* .Information {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-right: 14vw;
+} */
