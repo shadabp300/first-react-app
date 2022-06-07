@@ -1,0 +1,83 @@
+* {margin: 0; padding: 0;}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+}
+.header {
+    text-align: center;
+    background-color: rgb(200, 227, 239);
+    border: 0.5px solid rgb(188, 183, 183);
+    padding: 20px;
+}
+
+#print {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: bolder;
+    color: brown;
+}
+#id {
+    color:grey;
+    color: rgb(225, 14, 14);
+    font-weight: bold;
+}
+.Custromer-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 20px 15px;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    background: rgb(240, 185, 219);
+}
+
+.Order-Info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border:  2px solid gray;
+    margin: 20px 15px;
+    background-color: rgb(169, 177, 212);
+    padding: 20px 30px;
+}
+#date {
+    color: rgb(81, 76, 76);
+    font-size: small;
+}
+.Add-Product-List{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 15px;
+    padding: 25px 20px;
+    border:  2px solid gray;
+    background-color: rgb(214, 220, 160);
+}
+
+.list {
+    display: inline-block;
+    width: 27vw;
+    margin-right: 5px;
+}
+img {
+    width: 20vw;
+}
+#symbol {
+    margin-bottom: 20vh;
+    margin-right: 10px;
+    width: 3.5vw;
+    height: 7vh;
+}
+b {
+    font-size: large;
+    letter-spacing: 1.5px ;
+}

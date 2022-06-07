@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Clock from './personal/practice/Digital-Clock/Clock';
+import Project from './personal/practice/Assignment-3/Profile-Layout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <React.StrictMode>
-    <Clock/>
+    <Project/>
   </React.StrictMode>
   
 );
