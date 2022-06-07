@@ -1,14 +1,13 @@
 import React from 'react';
-import { UserData } from './Profile-Layout';
 import "./Profile-Layout.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="header">
-      <span id="name">{UserData.Name}</span>
+      <span id="name">{props.Data.Name}</span>
       <button id="print">Print</button>
       <br />
-      <span id="id">{UserData.EmployeeId}</span>
+      <span id="id">{props.Data.EmployeeId}</span>
     </div>
   );
 };

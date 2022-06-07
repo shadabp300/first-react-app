@@ -1,10 +1,9 @@
 import React from "react";
-import "./Profile-Layout.css";
 
 import Header from "./Header";
 import CustomerInfo from "./Custromer-Info";
 import OrderInfo from "./Order-Info";
-import AddProiductList from "./Add-Product-List";
+import AddProductList from "./Add-Product-List";
 
 export const UserData = {
     Name: "Shadab Pathan",
@@ -23,10 +22,10 @@ const Project = () => {
 
   return (
     <>
-      <Header />
-      <CustomerInfo />
-      <OrderInfo />
-      <AddProiductList />
+      <Header Data={UserData}/>
+      <CustomerInfo Data={UserData}/>
+      <OrderInfo Data={UserData}/>
+      <AddProductList Data={UserData}/>
     </>
   );
 };

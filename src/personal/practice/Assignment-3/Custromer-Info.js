@@ -1,19 +1,18 @@
 import React from 'react';
-import { UserData } from './Profile-Layout';
 import "./Profile-Layout.css";
-const CustomerInfo = () => {
+const CustomerInfo = (props) => {
   return (
     <div className="Custromer-Info">
       <span>
-        <b>Appointment :</b> {UserData.Appointment}
+        <b>Appointment :</b> {props.Data.Appointment}
       </span>
       <br />
       <span>
-        <b>Email :</b> {UserData.Email}
+        <b>Email :</b> {props.Data.Email}
       </span>
       <br />
       <span>
-        <b>Phone :</b> {UserData.Phone}
+        <b>Phone :</b> {props.Data.Phone}
       </span>
     </div>
   );

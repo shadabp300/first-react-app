@@ -1,26 +1,25 @@
 import { useState } from "react";
 
-const Counter= () => {
-    const [counter, func]=useState(0)
+const Counter = () => {
+  const [counter, setCounter] = useState(0);
 
-    const Increment= () => {
-        func((val) => {
-            return val+1
-        })
-    }
+  const Increment = () => {
+    setCounter(counter + 1);
+  };
 
-    const Decrement= () => {
-        func((val) => {
-            return val-1
-        })
-    }
+  const Decrement = () => {
+    setCounter(counter - 1);
+  };
 
-    return(
-        <div>
+  return (
+    <center >
+      <div >{counter}</div>
+      <div>
         <button onClick={Increment}>Increment</button>
-        <div>{counter}</div>
+
         <button onClick={Decrement}>Decrement</button>
-        </div>
-    )
-}
-export default Counter
+      </div>
+    </center>
+  );
+};
+export default Counter;
